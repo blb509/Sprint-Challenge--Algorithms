@@ -15,24 +15,24 @@ on size of n. If the recursion had two calls to itself in the return then it wou
 E2:
 
 def findMaxFloor(floors, checkBroke = checkbroke):
-broke = True
-maxFloor = None
-currentFloor = floors // 2
-while broke == true:
-broke = checkbroke(currentFloor)
-if broke == True:
-currentFloor = currentFloor // 2
-if broke == False:
-maxFloor = currentFloor
-currentFloor = plus 1/2th of this floor
-while broke == True
-broke = checkbroke(currentFloor)
-if broke == False:
-currentFloor = plus 1/2th of this floor
-if broke == True:
-currentFloor = minus 1/2th of this floor
-if checkbroke(currentFloor) == False and checkbroke(currentFoor + 1) == True:
-return maxFloor
+--broke = True
+--maxFloor = None
+--currentFloor = floors // 2
+--while broke == true:
+----broke = checkbroke(currentFloor)
+----if broke == True:
+------currentFloor = currentFloor // 2
+----if broke == False:
+------maxFloor = currentFloor
+------currentFloor = plus 1/2th of this floor
+------while broke == True
+--------broke = checkbroke(currentFloor)
+--------if broke == False:
+----------currentFloor = plus 1/2th of this floor
+--------if broke == True:
+----------currentFloor = minus 1/2th of this floor
+--------if checkbroke(currentFloor) == False and checkbroke(currentFoor + 1) == True:
+----------return maxFloor
 
 return maxFloor
 
